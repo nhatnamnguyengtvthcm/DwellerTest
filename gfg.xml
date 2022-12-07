@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<root>
+	<product0 list="GeeksForGeeks"/>
+	<product1 list="Arka"/>
+	<product2 list="Computer Science"/>
+	<product3 list="Engineering"/>
+	<product4 list="Portal"/>
+</root>

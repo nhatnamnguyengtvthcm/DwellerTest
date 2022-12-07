@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+	<generate>
+		<id type="integer"/>
+		<attribute name="role_name" type="character varying"/>
+	</generate>
+	<generate>
+		<id type="integer"/>
+		<attribute name="user_name" type="character varying"/>
+		<reference name="role_id" type="integer"/>
+	</generate>
+</root>
