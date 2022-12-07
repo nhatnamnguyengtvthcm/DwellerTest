@@ -4,10 +4,15 @@
 - Driver should be installed: https://jdbc.postgresql.org/download/
 
 Usage:
+1.Create virtual enviroment:
+    $ python -m venv env
+    $ source venv/bin/activate
 
-1. python setup.py install
-2. Enter your Database information to file .env
-3. Run file main.py "python main.py" to gen file 'test.xml'
+2. Run 'pip install -r requirements.txt'
+
+3.Enter your Database information to file .env
+
+4. Run file main.py "python main.py" or "python3.6 main.py " to gen file 'test.xml'
 
 
 
