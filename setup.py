@@ -40,7 +40,7 @@ setup(
     license = 'GNU LGPL',
     url='',
     description=('Connect python with postgre throught JDBC'),
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     keywords = ('db api java jdbc bridge connect sql jpype jython'),
     classifiers = [
 

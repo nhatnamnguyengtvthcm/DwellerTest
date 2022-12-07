@@ -23,14 +23,11 @@ def create_connect_jdbc():
 
     connection_string = 'jdbc:postgresql://' + DEFAULT_DB_HOST + ':' + DEFAULT_DB_PORT + '/' + DEFAULT_DB_NAME
 
-    url = '{0}:user={1};password={2}'.format(connection_string, DEFAULT_DB_USER, DEFAULT_DB_PASSWORD)
+    # url = '{0}:user={1};password={2}'.format(connection_string, DEFAULT_DB_USER, DEFAULT_DB_PASSWORD)
     print("Connection String: " + connection_string)
 
     conn = jaydebeapi.connect(JDBC_DRIVER_NAME, connection_string, { 'user': DEFAULT_DB_USER, 'password': DEFAULT_DB_PASSWORD },
                               jdbc_driver_loc)
-    # conn = jaydebeapi.connect(JDBC_DRIVER_NAME, connection_string,
-    #                           [DEFAULT_DB_USER, DEFAULT_DB_PASSWORD],
-    #                           jdbc_driver_loc)
     curs = conn.cursor()
     return curs
 
