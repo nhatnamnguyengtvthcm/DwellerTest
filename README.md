@@ -6,7 +6,8 @@
 Usage:
 
 1. python setup.py install
-2. Run file main.py "python main.py" to gen file 'test.xml'
+2. Enter your Database information to file .env
+3. Run file main.py "python main.py" to gen file 'test.xml'
 
 
 
